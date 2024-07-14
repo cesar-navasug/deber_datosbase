@@ -1,8 +1,9 @@
 package com.ug.hotels.services;
 
-import com.ug.hotels.model.Hotel;
 import java.util.List;
 
+import com.ug.hotels.model.Hotel;
+
 public interface HotelService {
-	List<Hotel> seach();
+	List<Hotel> search();
 }

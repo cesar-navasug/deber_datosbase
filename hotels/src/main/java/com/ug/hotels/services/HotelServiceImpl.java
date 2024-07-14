@@ -1,6 +1,7 @@
 package com.ug.hotels.services;
 
 import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -14,7 +15,7 @@ public class HotelServiceImpl implements HotelService {
 	private HotelRepository hotelRepository;
 
 	@Override
-	public List<Hotel> seach() {
+	public List<Hotel> search() {
 		return (List<Hotel>) hotelRepository.findAll();
 		
 	}
